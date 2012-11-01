@@ -9,4 +9,4 @@ sort : history.bib
 sort-push : sort history.bib
 		git add history.bib
 		git commit -m "updated bib"
-		git push
+		git push origin master
