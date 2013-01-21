@@ -40,3 +40,5 @@ keys.
   [BibTool]: http://www.gerd-neugebauer.de/software/TeX/BibTool/index.en.html
   [Zotero]: http://zotero.org
   [Bibkeys]: https://github.com/lmullen/bibkeys
+  [Lincoln Mullen]: http://lincolnmullen.com
+  [lincoln@lincolnmullen.com]: mailto:lincoln@lincolnmullen.com
