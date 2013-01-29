@@ -1,6 +1,4 @@
-History Bibliography\
-[Lincoln Mullen][]\
-<lincoln@lincolnmullen.com>
+History Bibliography | [Lincoln Mullen][] | <lincoln@lincolnmullen.com>
 
 This is a [BibTeX][] database that I use for citing works in [Pandoc][]
 and [LaTeX][]. It reflects only works that I have cited in certain
@@ -77,7 +75,8 @@ in your Pandoc LaTeX template, or in your LaTeX document class. You can
 tweak these options by looking at the [biblatex-chicago package][]
 documentation, but this is what I've found works best:
 
-\`\`\`\`\`\` % use BibLaTeX with Chicago style
+```
+% use BibLaTeX with Chicago style
 \usepackage[notes,              %use footnotes rather than author-date
             backend=biber,      %use biber to format citations
             autocite=footnote,  %turn autocites into footnotes
@@ -87,8 +86,9 @@ documentation, but this is what I've found works best:
             noibid,             %ibid belongs in the nineteenth century,
             ]{biblatex-chicago}
 
-% Define which BibTeX database to use \bibliography{history.bib}
-\`\`\`\`\`
+% Define which BibTeX database to use
+\bibliography{history.bib}
+```
 
 Then, you need use a switch to tell Pandoc to pass the citations on to
 Biblatex instead of handing them to citeproc-hs.
