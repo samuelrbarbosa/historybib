@@ -49,7 +49,7 @@ articles) and Pandoc footnotes for archival citations. For example:
     This sentence has a footnote with a book. [@citationkey2013, p. 145.] 
     This sentence has a footnote with an archival citation. ^[Maryland 
     archives.] This sentence has a footnote with a book and an archival 
-    citation.^[Maryland archives; [@citationkey2013, p. 145.]
+    citation.^[Maryland archives; [@citationkey2013, p. 145].]
 
 You can convert this document using Pandoc, which will convert the
 citations in your BibTeX database by sending them through citeproc-hs
