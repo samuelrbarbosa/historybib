@@ -2,7 +2,7 @@ task :default => [:wiki, :sort, :keys]
 
 desc "Pull BibTeX data from wiki files"
 task :wiki do 
-	sh "bibtool /Users/lmullen/acad/research/wikidata/*.page > wiki.bib 2> /dev/null"
+	sh "bibtool /Users/lmullen/acad/research/wiki/wikidata/*.page > wiki.bib 2> /dev/null"
 	sh "cat library.bib wiki.bib > master.bib"
 end
 
